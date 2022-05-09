@@ -35,7 +35,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:hint="balance"
+        android:hint="Balance"
         app:layout_constraintEnd_toStartOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/personaTextInput">
@@ -44,7 +44,7 @@
             android:id="@+id/balanceEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="balance"/>
+            android:hint="Balance"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
