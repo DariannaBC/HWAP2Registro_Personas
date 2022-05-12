@@ -8,6 +8,8 @@ data class Persona(
     @PrimaryKey(autoGenerate = true)
     val personaId: Int,
     val nombre: String,
+    val email: String,
+    val ocupacionId: Int,
     val balance: Float
 ) {
     fun guardar(persona: Persona) {
