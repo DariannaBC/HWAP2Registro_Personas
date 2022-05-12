@@ -32,6 +32,8 @@ class   MainActivity : AppCompatActivity() {
             viewModel.guardar(Persona(
                 0,
                 binding.personaEditText.text.toString(),
+                binding.emailEditText.text.toString(),
+                binding.ocuapcionEditText.text.toString().toInt(),
                 binding.balanceEditText.floatValue()
             ))
         }

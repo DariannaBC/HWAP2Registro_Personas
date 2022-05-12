@@ -8,7 +8,7 @@ import com.itsecurity.hwap2registro_personas.model.Persona
 
 @Database(
     entities = [Persona::class],
-    version = 1
+    version = 2
 )
 abstract class PersonaDb: RoomDatabase() {
     abstract  val personaDao: PersonaDao

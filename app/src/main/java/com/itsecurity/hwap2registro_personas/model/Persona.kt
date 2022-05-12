@@ -11,8 +11,4 @@ data class Persona(
     val email: String,
     val ocupacionId: Int,
     val balance: Float
-) {
-    fun guardar(persona: Persona) {
-
-    }
-}
+)
